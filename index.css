@@ -11,3 +11,14 @@
 .content{
     height: 85vh;
 }
+.navigate{
+    background-color: black;
+}
+.collapse-color{
+    color: white;
+    background-color: white;
+}
+.search-button{
+    color: white;
+    border: 1px solid white;
+}
