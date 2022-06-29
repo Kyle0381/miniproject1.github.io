@@ -1,18 +1,26 @@
 .headerbg{
-    background-color: black;
+    background-color: #5e0909;
 }
 .text-color{
     color: white !important;
 }
 .more-border-color{
-    border-color: black;
-    background-color: black;
+    border-color: #5e0909;
+    background-color: #5e0909;
 }
-.content{
+.landing{
+    display: flex;
+    flex-direction: column;
     height: 85vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e0909;
+    color: white;
+    
+    
 }
 .navigate{
-    background-color: black;
+    background-color: #5e0909;
 }
 .collapse-color{
     color: white;
@@ -22,3 +30,13 @@
     color: white;
     border: 1px solid white;
 }
+.foot-bgcolor{
+    background-color: #5e0909;
+    color: white;
+    border-color: #5e0909;
+    border-radius: 0;
+}
+/* .remove-border-and-radius{
+    border-color: #5e0909;
+    border-radius: 0;
+} */
