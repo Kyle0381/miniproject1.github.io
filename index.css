@@ -36,7 +36,6 @@
     border-color: #5e0909;
     border-radius: 0;
 }
-/* .remove-border-and-radius{
-    border-color: #5e0909;
-    border-radius: 0;
-} */
+.htmlcont{
+    height: 85vh;
+}
