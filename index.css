@@ -11,7 +11,7 @@
 .landing{
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    /* height: 75vh; */
     justify-content: center;
     align-items: center;
     background-color: #5e0909;
@@ -36,6 +36,24 @@
     border-color: #5e0909;
     border-radius: 0;
 }
+
 .htmlcont{
-    height: 85vh;
+    background-color: #5e0909;
+    color: white;
+    padding: 2rem;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.image-size{
+    width: 35vw !important;
+}
+
+@media screen and (max-width: 9999px) {
+    .htmlcont{
+        height: 88vh;
+    }
+    .landing{
+        height: 88vh;
+    }
 }
