@@ -49,11 +49,26 @@
     width: 35vw !important;
 }
 
+.elements-content{
+    background-color: #5e0909;
+    color: white;
+    padding: 2rem;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.class-color{
+    color: rgb(20, 238, 67);
+}
+
+
 @media screen and (max-width: 9999px) {
     .htmlcont{
         height: 88vh;
     }
     .landing{
+        height: 88vh;
+    }
+    .elements-content{
         height: 88vh;
     }
 }
