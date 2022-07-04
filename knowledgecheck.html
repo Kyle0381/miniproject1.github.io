@@ -61,16 +61,47 @@
               <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=qz0aGYrrlhU&t=2s" target="_blank">HTML</a></li>
               <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=3s" target="_blank">CSS</a></li>
               <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=PkZNo7MFNFg&t=4s" target="_blank">JavaScript</a></li>
-              <li><a class="dropdown-item" href="knowledgecheck.html">Knowledge check</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="landing">
+      <div class="mini-quiz"><div>1. What is the meaning of HTML?<br><br>
+        <input type="radio" id="correct" name="meaning" value="HyperText Markup Language" onclick="addScore()">
+        <label for="correct">HyperText Markup Language</label><br>
+        <input type="radio" id="wrong" name="meaning" value="How to make lumpia">
+        <label for="wrong">How to make lumpia</label><br>
+        <input type="radio" id="wrong" name="meaning" value="Hyper to make logtu">
+        <label for="wrong">Hyper to make logtu</label><br><br><br>
+        <div>2. What is the correct syntax for declaring HTML header elements? <br><br>
+        <input type="radio" id="correct" name="headerSyntax" value="&lt;h1&gt; &lt;&sol;h1&gt;" onclick="addScore()">
+        <label for="correct"> &lt;h1&gt; &lt;&sol;h1&gt;</label><br>
+        <input type="radio" id="wrong" name="headerSyntax" value="&lt;h1&gt; Sample header &lt;h1&gt;">
+        <label for="wrong">&lt;h1&gt; Sample header &lt;h1&gt;</label><br>
+        <input type="radio" id="wrong" name="headerSyntax" value="&lt;h1&lt; Sample header &lt;h1&lt;">
+        <label for="wrong">&lt;h1&lt; Sample header &lt;h1&lt;</label><br><br><br>
+        <div>3. What does a &lt;p&gt; element do?<br><br>
+            <input type="radio" id="correct" name="paragraphSyntax" value="The HTML &lt;p&gt; element defines a paragraph" onclick="addScore()">
+            <label for="correct">The HTML &lt;p&gt; element defines a paragraph</label><br>
+            <input type="radio" id="wrong" name="paragraphSyntax" value="It declares a header">
+            <label for="wrong">It declares a header</label><br>
+            <input type="radio" id="wrong" name="paragraphSyntax" value="It's just a display. No purpose.">
+            <label for="wrong">It's just a display. No purpose.
+            </label><br></div>
+    </div>
 
-        <h1 class="display-1">AskMeHow</h1>
-        <h4>Your guide to the coding world</h4>
-      </div>
+        
+      </div><br><br>
+      <div class="score-head">Score</div>
+      <div class="score-containcer">
+      <div class="scoring-border border" id="scorer"></div>
+    </div><br>
+    <div class="button-container">
+    <button type="button" class="btn btn-primary" onclick="getScore()" id="submit">Submit</button>
+    <button type="button" class="hide-button btn btn-primary" id="clear" onclick="clearScore()">Clear</button>
+</div>
+    
+    
+    </div>
         
       
 

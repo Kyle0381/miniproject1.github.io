@@ -80,6 +80,36 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 1vw;
     font-family: 'Courier New', Courier, monospace;
 }
+.mini-quiz{
+    background-color: #5e0909;
+    color: white;
+    padding: 2rem;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.scoring-border{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 7vw;
+}
+.score-containcer{
+    display: flex;
+    justify-content: center;
+}
+.score-head{
+    display: flex;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.hide-button{
+    display: none;
+}
 
 
 @media screen and (max-width: 9999px) {
@@ -99,6 +129,9 @@ font-family: 'Courier New', Courier, monospace;
         height: 88vh;
     }
     .quotations-cont{
+        height: 88vh;
+    }
+    .mini-quiz{
         height: 88vh;
     }
 }
