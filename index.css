@@ -59,6 +59,27 @@
 .class-color{
     color: rgb(20, 238, 67);
 }
+.headings-cont{
+background-color: #5e0909;
+color: white;
+padding: 2rem;
+font-size: 1vw;
+font-family: 'Courier New', Courier, monospace;
+}
+.para-cont{
+background-color: #5e0909;
+color: white;
+padding: 2rem;
+font-size: 1vw;
+font-family: 'Courier New', Courier, monospace;
+}
+.quotations-cont{
+    background-color: #5e0909;
+    color: white;
+    padding: 2rem;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 @media screen and (max-width: 9999px) {
@@ -69,6 +90,15 @@
         height: 88vh;
     }
     .elements-content{
+        height: 88vh;
+    }
+    .headings-cont{
+        height: 88vh;
+    }
+    .para-cont{
+        height: 88vh;
+    }
+    .quotations-cont{
         height: 88vh;
     }
 }
